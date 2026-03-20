@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link
+    rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+  <!-- la barre de navigation -->
+  <nav class="flex items-center justify-between text-[18px] px-5 bg-gray-100">
+   <div class="text-primary font-bold text-[25px]">Portfolio</div>
+     <div class="flex items-center gap-10  text-gray-600 ">
+       <a href="index.html" class="hover:text-primary">Accueil</a>
+       <a href="#Services" class="hover:text-primary">services</a>
+       <a href="#Portfolio" class="hover:text-primary">Portfolio</a>
+       <a href="#Contact" class="hover:text-primary">Contact</a>
+     </div>
+  </nav>
+  <!-- la section d'introduction -->
+    <section class="bg-gradient-to-br from-indigo-500 via via-purple-500 to-pink-500 text-white text-center  flex justify-center items-center w-full h-[600px]  flex-col">
+      <h1 class=" text-4xl sm:text-5xl md:text-6xl lg:text-[70px] max-w-3xl ">Créatrice Digitale & Développeuse Web</h1>
+      <p class="text-lg sm:text-xl md:text-2xl lg:text-[25px] p-4 max-w-2xl">Je transforme vos idées en expériences digitales exceptionnelles</p>
+      <div class="p-6 text-[20px] flex gap-10 items-center justify-center">
+        <button class="border p-2 rounded-[20px] bg-white text-primary"><a href="Portfolio.html">Voir mes projets</a></button>
+        <button class="border p-2 rounded-[20px] hover:bg-white hover:text-primary"><a href="Contact.html">Me contacter</a></button> 
+         <svg class="size-6 fixed bottom-5 left-1/2 -translate-x-1/2 animate-bounce" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+           <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 17.25 12 21m0 0-3.75-3.75M12 21V3" />
+         </svg>
+      </div>
+    </section>
+    <!-- la section de services -->
+      <section id="Services" >
+        <div class="text-center py-10">
+        <h1 class="text-[40px] font-bold">Mes Services</h1>
+        <p class="text-[20px] text-gray-900">Des solutions complètes pour tous vos besoins digitaux</p>
+        </div>
+        <!-- Mes services -->
+          <div class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mx-6 p-10">
+            <!-- developpement web -->
+              <div class=" bg-white p-8 rounded-xl shadow-md hover:shadow-xl hover:-translate-y-2 transition duration-300">
+                <div class="w-12 h-12 flex items-center justify-center bg-gradient-to-r from-blue-400 to-indigo-600 rounded-lg mb-4">
+                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5" />
+                   </svg>
+                </div>
+                <h2 class="text-[25px] font-bold p-4">Développement Web</h2>
+                <p class="text-[18px] text-gray-600">Création de sites web modernes, rapides et optimisés pour tous les appareils avec les dernières technologies.</p>
+              </div>
+              <!-- design graphique -->
+                <div class="bg-white p-8 rounded-xl hover:shadow-xl border hover:-translate-y-2 transition duration-300">
+                  <div class="w-12 h-12 flex items-center justify-center bg-gradient-to-r from-purple-400 to-pink-500 rounded-lg mb-4">
+                     <svg class="w-7 h-7 sm:w-8 sm:h-8 text-white" fill="none" stroke="white" viewBox="0 0 24 24">
+                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"></path>
+                     </svg>
+                  </div>
+                  <h2 class="text-[25px] font-bold p-4">UI/UX Design</h2>
+                  <p class="text-[18px] text-gray-600">Conception d'interfaces utilisateur intuitives et esthétiques pour une expérience utilisateur optimale</p>
+                </div>
+                <!-- responsive design -->
+                  <div class="bg-white p-8 rounded-xl hover:shadow-xl border hover:-translate-y-2 transition duration-300">
+                    <div class="w-12 h-12 flex items-center justify-center bg-gradient-to-r from-green-400 to-teal-500 rounded-lg mb-4">
+                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-7 h-7 sm:w-8 sm:h-8 text-white">
+                         <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 0 0 6 3.75v16.5a2.25 2.25 0 0 0 2.25 2.25h7.5A2.25 2.25 0 0 0 18 20.25V3.75a2.25 2.25 0 0 0-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
+                       </svg>
+                    </div>
+                     <h2 class="text-[25px] font-bold p-4">Responsive Design</h2>
+                     <p class="text-[18px] text-gray-600">Sites parfaitement adaptés à tous les écrans : mobile, tablette et desktop pour une accessibilité maximale.</p>
+                  </div>
+                  <!-- Performance -->
+                    <div class="bg-white p-8 rounded-xl hover:shadow-xl  border hover:-translate-y-2 transition duration-300">
+                      <div class="w-12 h-12 flex items-center justify-center bg-gradient-to-r from-orange-400 to-red-500 rounded-lg mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-7 h-7 sm:w-8 sm:h-8 text-white">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="m3.75 13.5 10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75Z" />
+                        </svg>
+                      </div>
+                      <h2 class="text-[25px] font-bold p-4">Performance</h2>
+                      <p class="text-[18px] text-gray-600">Optimisation des performances pour des temps de chargement ultra-rapides et un référencement optimal.</p>
+                    </div>
+                    <!-- Consulting -->
+                      <div class="bg-white p-8 rounded-xl hover:shadow-xl  border hover:-translate-y-2 transition duration-300">
+                        <div class="w-12 h-12 flex items-center justify-center bg-gradient-to-r from-yellow-400 to-orange-500 rounded-lg mb-4">
+                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-7 h-7 sm:w-8 sm:h-8 text-white">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 18v-5.25m0 0a6.01 6.01 0 0 0 1.5-.189m-1.5.189a6.01 6.01 0 0 1-1.5-.189m3.75 7.478a12.06 12.06 0 0 1-4.5 0m3.75 2.383a14.406 14.406 0 0 1-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 1 0-7.517 0c.85.493 1.509 1.333 1.509 2.316V18" />
+                          </svg>
+                        </div>
+                        <h2 class="text-[25px] font-bold p-4">Consulting</h2>
+                        <p class="text-[18px] text-gray-600">Conseils stratégiques pour votre présence en ligne et l'amélioration de vos projets digitaux</p>
+                      </div>
+                      <!-- hebergement -->
+                      <div class="bg-white p-8 rounded-xl hover:shadow-xl border hover:-translate-y-2 transition duration-300">
+                        <div class="w-12 h-12 flex items-center justify-center bg-gradient-to-r from-cyan-400 to-blue-500 rounded-lg mb-4">
+                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-7 h-7 sm:w-8 sm:h-8 text-white">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 15a4.5 4.5 0 0 0 4.5 4.5H18a3.75 3.75 0 0 0 1.332-7.257 3 3 0 0 0-3.758-3.848 5.25 5.25 0 0 0-10.233 2.33A4.502 4.502 0 0 0 2.25 15Z" />
+                          </svg>
+                        </div>
+                        <h2 class="text-[25px] font-bold p-4">Hébergement</h2>
+                        <p class="text-[18px] text-gray-600">Solutions d'hébergement fiables et sécurisées avec maintenance et support technique inclus.</p>
+                      </div>
+          </div>
+      </section>
+      <section id="Portfolio">
+      <!-- Portfolio -->
+           <div class="text-center py-10">
+              <h1 class="text-[40px] font-bold">Portfolio</h1>
+              <p class="text-[20px] text-gray-900 py-2">Découvrez mes derniéres réalisations </p>
+            </div>
+       
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8  mx-6 p-10 w-full ">
+          <!-- e-commerce -->
+           <div class="group relative w-100 h-52 rounded-2xl  bg-gradient-to-r from-blue-400 to-indigo-600 flex-col items-center justify-center text-center shadow-lg overflow-hidden p-10">
+             <!-- CONTENU PAR DÉFAUT (VISIBLE) -->
+                <div class="group-hover:opacity-0 transition duration-300">
+                  <!-- ICON -->
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="white"  class="size-10 w-20 h-20 mx-auto mb-3">
+                    <path fill-rule="evenodd" d="M2 4.25A2.25 2.25 0 0 1 4.25 2h7.5A2.25 2.25 0 0 1 14 4.25v5.5A2.25 2.25 0 0 1 11.75 12h-1.312c.1.128.21.248.328.36a.75.75 0 0 1 .234.545v.345a.75.75 0 0 1-.75.75h-4.5a.75.75 0 0 1-.75-.75v-.345a.75.75 0 0 1 .234-.545c.118-.111.228-.232.328-.36H4.25A2.25 2.25 0 0 1 2 9.75v-5.5Zm2.25-.75a.75.75 0 0 0-.75.75v4.5c0 .414.336.75.75.75h7.5a.75.75 0 0 0 .75-.75v-4.5a.75.75 0 0 0-.75-.75h-7.5Z" clip-rule="evenodd" />
+                  </svg>
+    <!-- TITLE -->
+                    <h3 class="text-white text-xl font-bold">e-commerce</h3>
+                </div>
+                <div class="absolute inset-0 flex flex-col justify-center items-center p-6  opacity-0   group-hover:opacity-100 transition duration-300">
+                    <h3 class="text-white text-xl font-bold mb-2">Boutique en ligne</h3>
+                    <p class="text-white text-sm mb-4 ">Plateforme e-commerce moderne avec payement sécurisé
+                    </p>
+                    <button class="bg-white text-purple-600 px-4 py-2 rounded-full text-sm 
+                   hover:bg-gray-200 transition"> Voir le projet → </button>
+                  </div>
+          </div>
+          
+           <!-- BLOCS -->
+               <div class="group relative w-100 h-52 rounded-2xl bg-gradient-to-r from-purple-400 to-pink-500 flex-col items-center justify-center text-center shadow-lg p-10 overflow-hidden">
+        <!-- CONTENU PAR DÉFAUT (VISIBLE) -->
+                <div class="group-hover:opacity-0 transition duration-300">
+    <!-- ICON -->
+                   <svg xmlns="http://www.w3.org/2000/svg"  fill="none" viewBox="0 0 24 24"     stroke-width="1.5" stroke="white" class="w-20 h-20 mx-auto mb-3 size-10">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M12 6.75c-1.5-1.5-4.5-1.5-6 0v10.5c1.5-1.5 4.5-1.5 6 0m0-10.5c1.5-1.5 4.5-1.5 6 0v10.5c-1.5-1.5-4.5-1.5-6 0"/>
+                  </svg>
+    <!-- TITLE -->
+                    <h3 class="text-white text-xl font-bold"> Blog</h3>
+
+                </div>
+  <!-- CONTENU HOVER -->
+                  <div class="absolute inset-0 flex flex-col justify-center items-center p-6  opacity-0 group-hover:opacity-100 transition duration-300">
+                    <h3 class="text-white text-xl font-bold mb-2">Blog Personnel</h3>
+                    <p class="text-white text-sm mb-4 ">Plateforme de blogging avec système de commentaires
+                    </p>
+                    <button class="bg-white text-purple-600 px-4 py-2 rounded-full text-sm 
+                   hover:bg-gray-200 transition"> Voir le projet → </button>
+
+                  </div>
+               </div>
+               <!-- Corporate -->
+                 <div class="group relative w-100 h-52 rounded-2xl bg-gradient-to-r from-green-400 to-teal-500 flex-col items-center justify-center text-center shadow-lg p-10 overflow-hidden">
+        <!-- CONTENU PAR DÉFAUT (VISIBLE) -->
+                <div class="group-hover:opacity-0 transition duration-300">
+    <!-- ICON -->
+                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="white" class="w-20 h-20 mx-auto mb-3 size-10">
+                    <path fill-rule="evenodd" d="M3.75 2a.75.75 0 0 0 0 1.5H4v9h-.25a.75.75 0 0 0 0 1.5H6a.5.5 0 0 0 .5-.5v-3A.5.5 0 0 1 7 10h2a.5.5 0 0 1 .5.5v3a.5.5 0 0 0 .5.5h2.25a.75.75 0 0 0 0-1.5H12v-9h.25a.75.75 0 0 0 0-1.5h-8.5ZM6.5 4a.5.5 0 0 0-.5.5V5a.5.5 0 0 0 .5.5H7a.5.5 0 0 0 .5-.5v-.5A.5.5 0 0 0 7 4h-.5ZM6 7a.5.5 0 0 1 .5-.5H7a.5.5 0 0 1 .5.5v.5A.5.5 0 0 1 7 8h-.5a.5.5 0 0 1-.5-.5V7Zm3-3a.5.5 0 0 0-.5.5V5a.5.5 0 0 0 .5.5h.5A.5.5 0 0 0 10 5v-.5a.5.5 0 0 0-.5-.5H9Zm-.5 3a.5.5 0 0 1 .5-.5h.5a.5.5 0 0 1 .5.5v.5a.5.5 0 0 1-.5.5H9a.5.5 0 0 1-.5-.5V7Z" clip-rule="evenodd" />
+                  </svg>
+ <!-- TITLE -->
+                    <h3 class="text-white text-xl font-bold"> Corporate</h3>
+                </div>
+  <!-- CONTENU HOVER -->
+                  <div class="absolute inset-0 flex flex-col justify-center items-center p-6  opacity-0 group-hover:opacity-100 transition duration-300">
+                    <h3 class="text-white text-xl font-bold mb-2">Site d'entreprise</h3>
+                    <p class="text-white text-sm mb-4 ">Site vitrine professionnel pour un startup tech
+                    </p>
+                    <button class="bg-white text-purple-400 px-4 py-2 rounded-full text-sm 
+                   hover:bg-gray-100 transition"> Voir le projet → </button>
+                  </div>
+               </div>
+                <!-- Marketplace -->
+            <div class="group relative w-100 h-52 rounded-2xl 
+            bg-gradient-to-r from-orange-400 to-red-500
+            flex flex-col items-center justify-center 
+            text-center shadow-lg  overflow-hidden">
+             <!-- CONTENU PAR DÉFAUT (VISIBLE) -->
+                <div class="group-hover:opacity-0 transition duration-300">
+                  <!-- ICON -->
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="white" class="w-20 h-20 mx-auto mb-3 size-10">
+                    <path d="M1.75 1.002a.75.75 0 1 0 0 1.5h1.835l1.24 5.113A3.752 3.752 0 0 0 2 11.25c0 .414.336.75.75.75h10.5a.75.75 0 0 0 0-1.5H3.628A2.25 2.25 0 0 1 5.75 9h6.5a.75.75 0 0 0 .73-.578l.846-3.595a.75.75 0 0 0-.578-.906 44.118 44.118 0 0 0-7.996-.91l-.348-1.436a.75.75 0 0 0-.73-.573H1.75ZM5 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM13 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z" />
+                  </svg>
+
+    <!-- TITLE -->
+                    <h3 class="text-white text-xl font-bold">Marketplace</h3>
+                </div>
+                <div class="absolute inset-0 flex flex-col justify-center items-center p-6  opacity-0   group-hover:opacity-100 transition duration-300">
+                    <h3 class="text-white text-xl font-bold mb-2">Marketplace Place de marché</h3>
+                    <p class="text-white text-sm mb-4 ">Marketplace multi-vendeurs avec gestion avancé
+                    </p>
+                    <button class="bg-white text-purple-600 px-4 py-2 rounded-full text-sm 
+                   hover:bg-gray-200 transition"> Voir le projet → </button>
+                  </div>
+          </div>
+                          <!-- DASHBORD -->
+            <div class="group relative w-100 h-52 rounded-2xl 
+          bg-gradient-to-r from-yellow-400 to-orange-500
+            flex flex-col items-center justify-center 
+            text-center shadow-lg  overflow-hidden">
+             <!-- CONTENU PAR DÉFAUT (VISIBLE) -->
+                <div class="group-hover:opacity-0 transition duration-300">
+                  <!-- ICON -->
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="white"     class="w-20 h-20 mx-auto mb-3 size-10">
+                    <path fill-rule="evenodd" d="M1 8a7 7 0 1 1 14 0A7 7 0 0 1 1 8Zm7.75-4.25a.75.75 0 0 0-1.5 0V8c0 .414.336.75.75.75h3.25a.75.75 0 0 0 0-1.5h-2.5v-3.5Z" clip-rule="evenodd" />
+                  </svg>
+
+    <!-- TITLE -->
+                    <h3 class="text-white text-xl font-bold">Dashbord</h3>
+                </div>
+                <div class="absolute inset-0 flex flex-col justify-center items-center p-6  opacity-0   group-hover:opacity-100 transition duration-300">
+                    <h3 class="text-white text-xl font-bold mb-2">Tableau de bord</h3>
+                    <p class="text-white text-sm mb-4 ">Dashboard Tableau de bord Interface d'administration avec analytics en temps réel
+                    </p>
+                    <button class="bg-white text-purple-600 px-4 py-2 rounded-full text-sm 
+                   hover:bg-gray-200 transition"> Voir le projet → </button>
+                  </div>
+          </div>
+           <!-- Mobile App -->
+            <div class="group relative w-100 h-52 rounded-2xl 
+             bg-gradient-to-r from-cyan-400 to-blue-500
+            flex flex-col items-center justify-center 
+            text-center shadow-lg  overflow-hidden">
+             <!-- CONTENU PAR DÉFAUT (VISIBLE) -->
+                <div class="group-hover:opacity-0 transition duration-300">
+                  <!-- ICON -->
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="white" class="w-20 h-20 mx-auto mb-3 size-10">
+                    <path d="M7.25 11.5a.75.75 0 0 0 0 1.5h1.5a.75.75 0 0 0 0-1.5h-1.5Z" />
+                    <path fill-rule="evenodd" d="M6 1a2.5 2.5 0 0 0-2.5 2.5v9A2.5 2.5 0 0 0 6 15h4a2.5 2.5 0 0 0 2.5-2.5v-9A2.5 2.5 0 0 0 10 1H6Zm4 1.5h-.5V3a.5.5 0 0 1-.5.5H7a.5.5 0 0 1-.5-.5v-.5H6a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-9a1 1 0 0 0-1-1Z" clip-rule="evenodd" />
+                  </svg>
+
+
+    <!-- TITLE -->
+                    <h3 class="text-white text-xl font-bold">Mobile App</h3>
+                </div>
+                <div class="absolute inset-0 flex flex-col justify-center items-center p-6  opacity-0   group-hover:opacity-100 transition duration-300">
+                    <h3 class="text-white text-xl font-bold mb-2">Application mobile</h3>
+                    <p class="text-white text-sm mb-4 ">App hybride pour iOS et Android avec React Native
+                    </p>
+                    <button class="bg-white text-purple-600 px-4 py-2 rounded-full text-sm 
+                   hover:bg-gray-200 transition"> Voir le projet → </button>
+                  </div>
+          </div>
+             
+ 
+        </div>
+       </section>
+       
+          <!-- contact -->
+           <section id="Contact">
+            <div class="text-center py-10">
+              <h1 class="text-[40px] font-bold">Contactez-moi</h1>
+              <p class="text-[20px] text-gray-900 py-2">Discutons de votre projet ensemble </p>
+            </div>
+            <div class=" flex flex-col md:flex-row gap-6 px-4 mx-4 text-[20px] ">
+              <!-- Mes informations -->
+              <div class=" flex-1 border p-6 bg-white rounded-xl shadow-md h-[400px]">
+                <div class="text-[30px] fond-bold py-4 text-center">Information de contact</div>
+                  <div class="flex items-center gap-2 mb-2">
+                    <!-- icone emai -->
+                    <div class="w-12 h-12 flex items-center justify-center bg-purple-500 rounded-lg text-white">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+                      </svg>
+                    </div>
+                    <!-- email -->
+                    <div>
+                      <p class="text-gray-500">Email</p>
+                      <p>contact@portfolio.com</p>
+                    </div>
+                  </div>
+                    <!-- icone téléphone -->
+                    <div class="flex items-center gap-2 mb-2">
+                     <div class="w-12 h-12 flex items-center bg-vert rounded-lg texte-white p-2 ">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+                        </svg>
+                      </div>
+                      <!-- telephone -->
+                      <div>
+                         <p class="text-gray-500"> Téléphone</p>
+                         <p>+33 6 12 34 56 78</p>
+                      </div>
+                    </div>
+                    <div class="flex items-center gap-2 mb-2">
+                      <!-- icone localisation -->
+                      <div class="w-12 h-12 flex items-center bg-orange rounded-lg texte-white p-2 ">
+                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                           <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                           <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+                         </svg>
+                      </div>
+                      <!-- localisation -->
+                      <div>
+                         <p class="text-gray-500">Localisation</p>
+                         <p>Paris, France</p>
+                      </div>
+                    </div>
+                     <div class="border-t p-2 ">
+                      <div class="mb-4 text-gray-500 text-[15px]">Suivez-moi </div>
+                      <!-- icones réseaux -->
+                      <div class="flex gap-6">
+                       <i class="fa-brands fa-facebook border bg-gray-500 w-6 h-6 text-white "></i>
+                       <i class="fa-brands fa-twitter border bg-gray-500 w-6 h-6 text-white "></i>
+
+                       <i class="fa-brands fa-linkedin border bg-gray-500 w-6 h-6 text-white "></i>
+                       <i class="fa-brands fa-github v"></i>
+                      </div>
+                  </div>
+           
+              </div>
+              <!-- Envoyez moi un message -->
+                    <div class="flex-1 border bg-white p-6 shadow-md rounded-lg ">
+                      <form action="">
+                      <h2 class="text-[25px] text-center py-4 text-gray-900">Envoyez-moi un message</h2>
+                      <div class="flex gap-6 items-center w-full">
+                        <div class="flex flex-col w-1/2 full">
+                          <label for="first-name" class="text-[18px]">Prénom</label>
+                          <input type="text"  placeholder="Jean" class="border rounded-lg text-[20px] p-2">
+                        </div>
+                        <div class="flex flex-col w-1/2 full">
+                          <label for="last-name">Nom</label>
+                          <input type="text" placeholder="Dupon" class="border rounded-lg text-[20px] p-2">
+                        </div>
+                      </div>
+                      <div class="flex flex-col">
+                      <label for="email">Email</label>
+                      <input type="email" placeholder="jean.dupont@example.com" class="border rounded-lg text-[20px] p-2">
+                      </div>
+                      <div class="flex flex-col">
+                        <label for="text">Sujet</label>
+                        <input type="text" placeholder="Demande de devis" class="border rounded-lg text-[20px] p-2">
+                      </div>
+                      <div class="flex flex-col">
+                        <label for="message">Message</label>
+                        <textarea name="" id="" placeholder="Décrivez votre projet" class="border rounded-lg text-[20px] p-2 h-[150px]"></textarea>
+                      </div>
+                      <button class="bg-blue-700 text-white py-4 mt-4 rounded-lg w-full">Envoyez le message</button>
+                     
+                      </form>
+                    </div>
+            </div>
+           </section>
+           <!-- FOOTER -->
+            <footer class="bg-[#0f172a] text-gray-400 py-16 px-6 font-sans relative">
+  <div class="max-w-7xl mx-auto">
+    
+    <div class="grid grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-12 mb-16">
+      
+      <div class="space-y-4 col-span-2 lg:col-span-1">
+        <h2 class="text-white text-xl font-bold">Portfolio</h2>
+        <p class="text-sm leading-relaxed">
+          Créateur digital passionné par le développement web et le design moderne.
+        </p>
+        <div class="flex space-x-3">
+          <a href="#" class="bg-gray-800 p-2 rounded-lg hover:bg-indigo-600 transition-colors">
+            <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24"></svg>
+          </a>
+          <a href="#" class="bg-gray-800 p-2 rounded-lg hover:bg-indigo-600 transition-colors">
+            <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24"></svg>
+          </a>
+          <a href="#" class="bg-gray-800 p-2 rounded-lg hover:bg-indigo-600 transition-colors">
+            <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24"></svg>
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <h3 class="text-white font-semibold mb-4">Liens rapides</h3>
+        <ul class="space-y-3 text-sm">
+          <li><a href="#" class="hover:text-indigo-400 transition">Accueil</a></li>
+          <li><a href="#" class="hover:text-indigo-400 transition">Services</a></li>
+          <li><a href="#" class="hover:text-indigo-400 transition">Portfolio</a></li>
+          <li><a href="#" class="hover:text-indigo-400 transition">Contact</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="text-white font-semibold mb-4">Services</h3>
+        <ul class="space-y-3 text-sm">
+          <li><a href="#" class="hover:text-indigo-400 transition">Développement Web</a></li>
+          <li><a href="#" class="hover:text-indigo-400 transition">UI/UX Design</a></li>
+          <li><a href="#" class="hover:text-indigo-400 transition">Responsive Design</a></li>
+          <li><a href="#" class="hover:text-indigo-400 transition">Consulting</a></li>
+        </ul>
+      </div>
+
+      <div class="col-span-2 lg:col-span-1 mt-8 lg:mt-0">
+        <h3 class="text-white font-semibold mb-4">Newsletter</h3>
+        <p class="text-sm mb-4">Restez informé de mes derniers projets</p>
+        <form class="flex flex-col space-y-3">
+          <input type="email" placeholder="Votre email" class="bg-gray-800 border border-gray-700 rounded-md px-4 py-2 text-sm focus:outline-none focus:border-indigo-500">
+          <button class="bg-[#6366f1] hover:bg-[#4f46e5] text-white font-medium py-2 rounded-md transition-all">
+            S'abonner
+          </button>
+        </form>
+      </div>
+
+    </div>
+
+    <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-xs relative">
+      <p>© 2026 Portfolio. Tous droits réservés.</p>
+      <div class="flex space-x-4 mt-4 md:mt-0 mr-12 md:mr-0">
+        <a href="#" class="hover:text-white">Mentions légales</a>
+        <a href="#" class="hover:text-white">Politique de confidentialité</a>
+        <a href="#" class="hover:text-white">CGU</a>
+      </div>
+
+      <a href="#" class="absolute bottom-2 right-0 bg-[#6366f1] p-3 rounded-full hover:bg-[#4f46e5] transition-all rotate-180">
+        <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+        </svg>
+      </a>
+    </div>
+
+  </div>
+</footer>
+     
+           </section>
+
+  
+  
+       <script src="./tailwindconfig.js"></script> 
+</body>
+</html>
